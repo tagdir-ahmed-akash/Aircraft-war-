@@ -1,0 +1,51 @@
+# Aircraft Battle Game
+
+## Overview
+This is a simple 2D aircraft battle game written in C++. The player controls a plane and must shoot down enemy planes while avoiding enemy bullets. The game includes health points, collision detection, and a boss level.
+
+## Features
+- Player controls with keyboard input (arrow keys to move, space to shoot).
+- Enemy planes that move down the screen and shoot at the player.
+- Health points for both the player and enemy planes.
+- Collision detection for bullets and planes.
+- Game over screen when the player loses all health.
+
+## Requirements
+- **C++ Compiler**: Ensure you have a compatible C++ compiler.
+- **Graphics Library**: This game uses the BGI graphics library. Make sure to set up the graphics library correctly in your development environment.
+- **Windows OS**: The code uses Windows-specific libraries (`<windows.h>`).
+
+## Setup Instructions
+1. **Install a C++ compiler**: Use an IDE like Code::Blocks or Visual Studio.
+2. **Set up the graphics library**:
+   - Download the BGI graphics library.
+   - Configure the library paths in your project settings.
+3. **Compile and run**: Open the project in your IDE, compile the code, and run the executable.
+
+## Controls
+- **Arrow Keys**: Move the player plane up, down, left, or right.
+- **Spacebar**: Shoot bullets.
+- **ESC**: Exit the game or start the game.
+
+## Game Logic
+- The player plane starts at the bottom of the screen.
+- Enemy planes randomly spawn at the top and move downwards.
+- The player can shoot bullets to destroy enemy planes.
+- If the player collides with an enemy plane or bullet, health decreases.
+- The game ends when the player's health reaches zero.
+
+## Contributing
+Feel free to fork the repository and submit pull requests for improvements or features.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- Inspired by classic 2D shooter games.
+- Thanks to the open-source community for the graphics libraries.
+
+- How to Use
+Copy the above text.
+Create a new file named README.md in your project directory.
+Paste the copied text into the file and save it.
+This README will help users understand your project, its features, and how to get started!
